@@ -5,7 +5,7 @@ import { useState } from "react";
 function Counter(props) {
   const [count, setCount] = useState(0);
   return (
-    <div className="flex flex-col items-center gap-4 p-6 rounded-lg border border-gray-300 shadow-md bg-white">
+    <div className="flex flex-col items-center gap-4 p-6 rounded-lg border border-gray-300 shadow-md bg-background">
       <h2 className="text-lg font-semibold">{props.title}</h2>
 
       <div className="flex items-center gap-4">
