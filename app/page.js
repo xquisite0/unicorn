@@ -1,4 +1,4 @@
-import Counter from "@/component/Counter";
+import Counter from "@/components/Counter";
 import Link from "next/link";
 
 export default function Home() {
