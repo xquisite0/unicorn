@@ -14,6 +14,7 @@ export async function POST(request) {
     // - Compute data
     // - Call another API like OpenAI
 
+    // no need to specify the status code, 200 is the default
     return NextResponse.json({
       success: true,
       data: { action, counterId },

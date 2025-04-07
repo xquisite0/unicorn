@@ -40,6 +40,7 @@ function Counter({ title, id }) {
         <button
           onClick={() => handleCounterAction("decrement")}
           className="btn btn-circle btn-outline"
+          disabled={isLoading}
         >
           -
         </button>
@@ -49,6 +50,7 @@ function Counter({ title, id }) {
         <button
           onClick={() => handleCounterAction("increment")}
           className="btn btn-circle btn-outline"
+          disabled={isLoading}
         >
           +
         </button>
